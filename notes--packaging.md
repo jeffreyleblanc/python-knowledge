@@ -20,3 +20,7 @@ Tutorials:
 
 * Looks like the best: <https://realpython.com/pypi-publish-python-package/#install-your-package-locally>
 
+Related Topics:
+
+* Packaging for Debian (self contained) <https://dh-virtualenv.readthedocs.io/en/1.2.1/>
+
