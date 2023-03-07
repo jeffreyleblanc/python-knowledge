@@ -6,6 +6,9 @@ Python libraries are stored at `/usr/lib/python3/dist-packages`.
 
 While we can use `pip` or some other means to install, it is "cheap" for small local libraries to just sync them to the above path and then `chown -R root:root`. The `installation.sh` script here encapsulates that pattern.
 
+We also may use `pip3` with the `-e` flag. See <https://pip.pypa.io/en/stable/cli/pip_install/>.
+
+
 ## Notes on The Module Search Path
 
 * <https://docs.python.org/3/library/sys_path_init.html>
