@@ -1,0 +1,19 @@
+## base.html
+<html>
+<head>
+    <title>${title}</title>
+</head>
+<body>
+    <nav>
+        <%block name="header"/>
+    </nav>
+    <main>
+        ${self.body()}
+    </main>
+    <footer>
+        <%block name="footer">
+            this is the footer
+        </%block>
+    </footer>
+</body>
+</html>

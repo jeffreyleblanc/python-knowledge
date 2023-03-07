@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>${title}</title>
+</head>
+<body>
+    % if add_title:
+        <h1>${'TITLE: '+title}</h1>
+    % else:
+        <!-- No Title -->
+    % endif
+
+    <ul>
+    % for a in items:
+        <li>Item ${loop.index}: ${a}</li>
+    % endfor
+    </ul>
+</body>
+</html>

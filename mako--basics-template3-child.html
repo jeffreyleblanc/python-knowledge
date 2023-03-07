@@ -1,0 +1,11 @@
+## index.html
+<%inherit file="mako--basics-template3-base.html"/>
+
+<%block name="header">
+    this is some header content
+    % for a in items:
+        <li>Item ${loop.index}: ${a}</li>
+    % endfor
+</%block>
+
+this is the body content.
