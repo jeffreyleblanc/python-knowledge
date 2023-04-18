@@ -2,6 +2,8 @@
 
 ## Topics
 
+* Regular vs Namespace packages
+* <https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html>
 * python's bad float accumulation issues
 * packaging python projects
     * where dependencies live
