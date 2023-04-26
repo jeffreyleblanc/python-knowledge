@@ -46,6 +46,10 @@ def main():
         else:
             print('something:',path)
 
+    # Deep and Filtered iteration
+    for path in HOME1.glob("**/*"):
+        print(path)
+
     '''
     text = path.read_text()
     _bytes = path.read_bytes()
