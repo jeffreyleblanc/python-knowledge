@@ -46,6 +46,10 @@ def main():
         else:
             print('something:',path)
 
+    # To ensure a sorted list:
+    for path in sorted(HOME1.iterdir()):
+        print(path)
+
     # Deep and Filtered iteration
     for path in HOME1.glob("**/*"):
         print(path)
