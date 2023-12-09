@@ -19,6 +19,9 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 $ PS1='()$ '
 
+# Upgrade pip
+()$ pip install --upgrade pip
+
 # Check on pip
 ()$ pip3 list
 
